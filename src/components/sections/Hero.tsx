@@ -1,6 +1,6 @@
 import { Container } from "../shared/Container";
 import { Paragraph } from "../shared/Paragraph";
-import weili from "../../assets/weili.jpg"
+import weili from "/assets/weili.jpg"
 import { Button } from "../shared/Button";
 import { Numbers } from "./Numbers";
 //import Image from ""

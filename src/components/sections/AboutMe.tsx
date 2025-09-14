@@ -1,7 +1,7 @@
 import { Container } from "../shared/Container";
 import { Paragraph } from "../shared/Paragraph";
 import { Title } from "../shared/Title";
-import weiliAbout from "../../assets/weiliAbout.jpg"
+import weiliAbout from "/assets/weiliAbout.jpg"
 import { Info } from "../cards/Info";
 
 export const AboutMe = () => {
