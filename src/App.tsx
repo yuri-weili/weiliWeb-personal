@@ -7,7 +7,7 @@ import { Pricing } from "./components/sections/Pricing"
 import { Services } from "./components/sections/Services"
 
 function App() {
-  return <Layout title="EdgeAI">
+  return <Layout title="WeiliWeb">
     {/* 将一些重复使用的组件放进去 */}
     <Hero />
     <Interest />
