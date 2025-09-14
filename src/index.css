@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  /* 定义背景颜色 */
+  --color-bg:255 255 255;
+  --color-box: 255 255 255;
+  --box-border: 229 231 235;
+  --box-sd: 226 231 240 / 0.5;
+  --heading-1:23 37 84;
+  --heading-2:31 41 55;
+  --heading-3:55 65 81;
+}
+
+/* 设置深色主题 */
+html.dark {
+  /* 深蓝色主题 */
+  --color-bg: 3 8 18;
+  /* 盒子颜色 */
+  --color-box: 17 24 39;
+  --box-border: 243 244 246 / 0.1;
+  /* 盒子框阴影 */
+  --box-sd: transparent;
+  /* 标题文件 */
+  --heading-1:255 255 255;
+  --heading-2:243 244 246;
+  --heading-3:209 213 219;
+}
+/* 应用上述主题配置 */
+@layer utilities {
+  .bg-body{
+    background-color: rgb(var(--color-bg));
+  }
+  .bg-box-bg{
+    background-color: rgb(var(--color-box));
+  }
+  .text-heading-1{
+    color:rgb(var(--heading-1));
+  }
+  .text-heading-2{
+    color:rgb(var(--heading-2));
+  }
+  .text-heading-3{
+    color:rgb(var(--heading-3));
+  }
+}
+
+html {
+  /* 设置滚动为顺滑 */
+  scroll-behavior: smooth;
+}
+body {
+  /* 设置字体族 */
+  font-family: "Raleway",sans-serif;
+}
